@@ -73,7 +73,7 @@ def daily_registered_rent(df):
     return daily_registered_rent_df
 
 
-st.image("bg.jpeg")
+st.image("https://github.com/fildzahkhls/ProjekAnalisisData/blob/main/dashboard/bg.jpeg")
 st.header('Bike Rentals 🚲')
 
 min_date = pd.to_datetime(day['dteday']).dt.date.min()
