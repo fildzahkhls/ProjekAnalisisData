@@ -6,8 +6,8 @@ from PIL import Image
 
 sns.set(style='dark')
 
-day = pd.read_csv("https://raw.githubusercontent.com/fildzahkhls/ProjekAnalisisData/main/Bike-sharing-dataset/day.csv")
-hour = pd.read_csv("https://raw.githubusercontent.com/fildzahkhls/ProjekAnalisisData/main/Bike-sharing-dataset/hour.csv")
+day = pd.read_csv("https://raw.githubusercontent.com/fildzahkhls/ProjekAnalisisData/main/data/day.csv")
+hour = pd.read_csv("https://raw.githubusercontent.com/fildzahkhls/ProjekAnalisisData/main/data/hour.csv")
 
 hour.drop(columns=['instant', 'workingday'], inplace=True)
 day.drop(columns=['instant', 'workingday'], inplace=True)
